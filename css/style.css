@@ -1,0 +1,141 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Indie Flower', cursive;
+}
+
+
+.top{
+	width: 100%;
+	height: 210px;
+	background: #000; 
+}
+
+.content{
+	margin: 0 10%;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.content h1{
+	margin: 0;
+	text-align: center;
+	color: #FFF;
+	font-size: 40px;	 
+}
+
+.content strong{
+	color: #c3c3c3;
+	position: relative;
+	left: 95px;
+	top: -15px;
+}
+
+.content input{
+	font-size: 22px;
+	width: 100%;
+	height: 50px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	border: 1px solid #C3c3c3;
+	padding: 5px;
+}
+
+#map-canvas {
+	width: 100%;
+	height: 800px;
+}
+
+.menu-top {
+	list-style: none;
+}
+
+.menu-top li{
+	display: inline-block;
+	font-size: 22px;
+	margin-left: 20px;
+}
+
+.menu-top li a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.menu-top li a:hover{
+	border-top: 2px solid #FFF;
+}
+
+.form {
+	border-radius: 10px;
+	background: #f4f4f4;
+	border: 1px solid #c3c3c3;
+	padding: 25px;
+	width: 500px;
+	position: relative;
+	left: 50%;
+	margin-top: 20px;
+	margin-left: -250px;
+}
+
+.form label{
+	font-size: 22px;
+	float: left;
+	text-align: left;
+	display: block;
+	width: 100%;
+
+}
+
+.form h2{
+	font-size: 35px;
+}
+
+#enviar {
+	color: #a3a3a3;
+	cursor: pointer;
+}
+
+#enviar:hover {
+	color: #000;
+	background: #c4c4c4;
+}
+
+.visualizar {
+	border-radius: 10px;
+	background: #f4f4f4;
+	border: 1px solid #c3c3c3;
+	padding: 25px;
+	width: 500px;
+	position: relative;
+	left: 50%;
+	margin-top: 20px;
+	margin-left: -250px;
+	display: none;
+	font-size: 20px;
+}
+
+.visualizar ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+.visualizar strong{
+	color: #000;
+	display: block;
+	position: static;
+}
+
+
+/* Só roda quando existe o recurso*/
+#gato-doido {
+	-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), 
+		color-stop(70%, transparent) , to(rgba(250, 250, 250, 0.1)));
+}
+
+/* Quando não encontra recurso ele add a no class e faz isso*/
+.no-cssreflections #gato-doido{
+	background-color: #000;
+	padding: 20px;
+}
